@@ -1,0 +1,41 @@
+form {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    margin-bottom: 4px;
+    color: #444444; 
+  }
+  
+  form input, form select {
+    padding: 8px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+  
+  form button {
+    background: #4ECDC4; 
+    color: #FFFFFF;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  form button:hover {
+    background: #00A9E0; 
+  }
+  
+  form .error {
+    color: #FF6F00; 
+    font-size: 12px;
+  }
+  

@@ -1,0 +1,23 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1; /* Cor Neutra 1 */
+    color: #444444; /* Cor Neutra 2 */
+  }
+  
+  h1 {
+    color: #00A9E0; /* Cor Primária */
+    text-align: center;
+    margin: 16px 0;
+  }
+  
+  .app-container {
+    padding: 16px;
+  }
+  
+  .status-container {
+    text-align: center;
+    margin: 12px 0;
+  }
+  

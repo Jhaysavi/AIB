@@ -1,0 +1,33 @@
+.viewer-container {
+    text-align: center;
+    background: #FFFFFF; 
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .viewer-container p {
+    color: #444444; 
+    margin: 8px 0;
+  }
+  
+  .viewer-container .qr-code {
+    margin-top: 16px;
+  }
+  
+  .viewer-container button {
+    background: #FFB600; 
+    color: #FFFFFF;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 16px;
+    cursor: pointer;
+  }
+  
+  .viewer-container button:hover {
+    background: #FF6F00; 
+  }
+  
