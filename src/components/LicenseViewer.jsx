@@ -1,8 +1,9 @@
 import { downloadLicensePDF } from "../utils/downloadPDF";
+import "../styles/LicenseViewer.css";
 
 const LicenseViewer = ({ license }) => {
   return (
-    <div className="license-viewer">
+    <div className="viewer-container">
       <h2>License Details</h2>
       <p>Type: {license.licenseType}</p>
       <p>Name: {license.name}</p>
@@ -17,6 +18,5 @@ const LicenseViewer = ({ license }) => {
     </div>
   );
 };
-
 
 export default LicenseViewer;

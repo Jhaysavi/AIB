@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateLicenseData } from "../utils/grokApi";
+import "../styles/LicenseForm.css";
 
 const LicenseForm = ({ generateLicense }) => {
   const [formData, setFormData] = useState({
